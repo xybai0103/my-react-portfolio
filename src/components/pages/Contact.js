@@ -28,13 +28,13 @@ export default function Contact() {
     const inputValue = target.value;
 
     if (inputValue === '') {
-      setErrorMessage(`${inputType} is required`);
+      setErrorMessage(`${inputType} is required.`);
       //prevent the form to be submitted
       return false;
     }
 
     if (!validateEmail(email)) {
-      setErrorMessage(`Your email is invalid`);
+      setErrorMessage(`Your email is invalid.`);
       return false;  
     }
     //allow the form to be submitted
