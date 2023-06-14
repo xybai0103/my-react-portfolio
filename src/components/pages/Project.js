@@ -3,6 +3,11 @@ import githubIcon from '../../assets/images/githubIcon.png';
 //project images
 import voteForMe from '../../assets/images/voteForMe.png';
 import babyName from '../../assets/images/babyName.jpg';
+import textEditor from '../../assets/images/textEditor.png';
+import noteTaker from '../../assets/images/noteTaker.jpg';
+import weatherDashboard from '../../assets/images/weather.jpg';
+import workdayScheduler from '../../assets/images/scheduler.jpg';
+
 
 export default function Project() {
   const projects = [
@@ -19,6 +24,34 @@ export default function Project() {
       githubUrl: 'https://github.com/xybai0103/babyNameApp',
       appName: 'Baby Name',
       appTech: 'Front-end Application Using jQuery and Third-party APIs',
+    },
+    {
+      imgUrl: textEditor,
+      appUrl: 'https://pwa-text-editor01.herokuapp.com/',
+      githubUrl: 'https://github.com/xybai0103/PWA-textEditor',
+      appName: 'Text Editor',
+      appTech: 'Progressive Web Application (PWA) Using IndexedDB',
+    },
+    {
+      imgUrl: noteTaker,
+      appUrl: 'https://notetaker-express.herokuapp.com/',
+      githubUrl: 'https://github.com/xybai0103/express.js-noteTaker#technologies',
+      appName: 'Note Taker',
+      appTech: 'Full-stack Application Using ExpressJs',
+    },
+    {
+      imgUrl: weatherDashboard,
+      appUrl: 'https://xybai0103.github.io/serverSideAPIs-weatherDashboard/',
+      githubUrl: 'https://github.com/xybai0103/serverSideAPIs-weatherDashboard',
+      appName: 'Weather dashboard',
+      appTech: 'Full-stack Application Using jQuery and Third-party APIs',
+    },
+    {
+      imgUrl: workdayScheduler,
+      appUrl: 'https://xybai0103.github.io/thirdPartyAPIs-workDayScheduler/',
+      githubUrl: 'https://github.com/xybai0103/thirdPartyAPIs-workDayScheduler',
+      appName: 'Workday Scheduler',
+      appTech: 'Front-end Application Using jQuery',
     },
   ];
 
