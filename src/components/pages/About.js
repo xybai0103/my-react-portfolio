@@ -1,10 +1,11 @@
 import React from 'react';
+import avatar from '../../assets/images/headshot.jpeg';
 
 export default function About() {
   return (
     <div>
       <h1>About me</h1>
-      <img id="avatar" src="../../../public/images/headshot.jpeg" alt="Xueyin's Avatar"/>
+      <img id="avatar" src={avatar} alt="Xueyin's Avatar"/>
       <p>
         I spent my past over ten years in the landscape architecture and Urban Planning area. Serving as 
         a research assistant at the University of Florida, I participated in multi-diciplinary research 

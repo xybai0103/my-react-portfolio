@@ -1,16 +1,20 @@
 import React from 'react';
+import githubIcon from '../../assets/images/githubIcon.png';
+//project images
+import voteForMe from '../../assets/images/voteForMe.png';
+import babyName from '../../assets/images/babyName.jpg';
 
 export default function Project() {
   const projects = [
     {
-      imgUrl: '../../../public/images/voteForMe.png',
+      imgUrl: voteForMe,
       appUrl: 'https://election-pro.herokuapp.com/',
       githubUrl: 'https://github.com/danieltran2016/Elections',
       appName: 'Vote for Me!',
       appTech: 'Full-stack Application Using ExpressJs and MySQL',
     },
     {
-      imgUrl: '../../../public/images/babyName.jpg',
+      imgUrl: babyName,
       appUrl: 'https://xybai0103.github.io/babyNameApp/',
       githubUrl: 'https://github.com/xybai0103/babyNameApp',
       appName: 'Baby Name',
@@ -43,7 +47,7 @@ function ProjectItem ({ project }) {
         </div>
         <div className='app-github'>
           <a href={githubUrl} target="_blank" rel='noopener noreferrer'>
-            <img src='../../../public/images/githubIcon.png' alt='Github' />
+            <img src={githubIcon} alt='Github' />
           </a>
         </div>
         <div className='app-tech'>{appTech}</div>
