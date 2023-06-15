@@ -1,0 +1,50 @@
+.app-container:hover .app-info {
+  opacity: 1;
+}
+
+.app-container:hover .app-img {
+  opacity: 0.3;
+}
+
+.app-container {
+  margin-bottom: -95px;
+}
+
+.app-info {
+  margin-right: 170px;
+  padding: 15px;
+  opacity: 0;
+}
+
+.app-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.app-info {
+  position: relative;
+  top: -200px;
+  left: 50px;
+}
+
+.app-name {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.app-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.app-github {
+  display: inline-block
+}
+
+.app-tech {
+  margin-top: 20px;
+  font-weight: bold;
+}

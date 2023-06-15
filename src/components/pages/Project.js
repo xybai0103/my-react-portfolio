@@ -1,5 +1,6 @@
 import React from 'react';
 import githubIcon from '../../assets/images/githubIcon.png';
+import './Project.css';
 //project images
 import voteForMe from '../../assets/images/voteForMe.png';
 import babyName from '../../assets/images/babyName.jpg';
@@ -57,12 +58,11 @@ export default function Project() {
 
   return (
     <div>
-      <h1 className='fs-2'>Portfolio</h1>
+      <h1 className='fs-2 mb-3'>Portfolio</h1>
       <div className='projects row'>
         {projects.map((project, index)=>(
           <ProjectItem key={index} project={project}/>
         ))}
-
       </div>
     </div>
   );
@@ -72,10 +72,10 @@ function ProjectItem ({ project }) {
   const { imgUrl, appUrl, githubUrl, appName, appTech } = project;
 
   return (
-    <figure className='app-container col-sm-12 col-md-6 col-lg-6 d-flex align-items-center'>
-      <img className='app-img projectImg' src={imgUrl} alt={appName}/>
+    <figure className='app-container col-sm-12 col-md-6 col-lg-6'>
+      <img className='app-img' src={imgUrl} alt={appName}/>
       <figcaption className='app-info'>
-        <div className='app-name'>
+        <div className='app-name fs-4'>
           <a href={appUrl} target='_blank' rel='noopener noreferrer'>{appName}</a>
         </div>
         <div className='app-github'>
