@@ -4,11 +4,11 @@ import myResume from '../../assets/myResume.pdf';
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1 className='fs-2'>Resume</h1>
       <p>
         Download my <a href={myResume} download>resume</a>
       </p>
-      <h2>Front-end Proficiencies</h2>
+      <h2 className='fs-4'>Front-end Proficiencies</h2>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -18,7 +18,7 @@ export default function Resume() {
         <li>React</li>
         <li>Bootstrap</li>
       </ul>
-      <h2>Back-end Proficiencies</h2>
+      <h2 className='fs-4'>Back-end Proficiencies</h2>
       <ul>
         <li>APIs</li>
         <li>Node</li>

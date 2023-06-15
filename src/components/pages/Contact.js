@@ -49,8 +49,8 @@ export default function Contact() {
   }
 
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className='col-sm-12 col-md-6 col-lg-4'>
+      <h1 className='fs-4'>Contact</h1>
       <form className='form-group'>
         <label>Name:</label>
         <input
@@ -58,7 +58,7 @@ export default function Contact() {
             value={name}
             name="Name"
             type="text"
-            className="form-control"
+            className="form-control mb-3"
             id="name"
             required
             onBlur={validateField}
@@ -69,7 +69,7 @@ export default function Contact() {
             value={email}
             name="Email"
             type="email"
-            className="form-control"
+            className="form-control mb-3"
             id="email"
             required
             onBlur={validateField}
@@ -80,7 +80,7 @@ export default function Contact() {
             value={message}
             name="Message"
             type="text"
-            className="form-control"
+            className="form-control mb-3"
             id="message"
             required
             onBlur={validateField}
@@ -90,7 +90,7 @@ export default function Contact() {
         )}
         <button
             onClick={handleFormSubmit}
-            className='btn btn-primary'
+            className='btn bg-black text-white mt-2'
             type='submit'
         >
             Submit

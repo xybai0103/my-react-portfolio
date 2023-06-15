@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className='m-5 px-5'>
+      <div className='m-5 px-5 row'>
         {renderPage()}
       </div>
       <Footer /> 

@@ -57,8 +57,8 @@ export default function Project() {
 
   return (
     <div>
-      <h1>Portfolio</h1>
-      <div className='projects'>
+      <h1 className='fs-2'>Portfolio</h1>
+      <div className='projects row'>
         {projects.map((project, index)=>(
           <ProjectItem key={index} project={project}/>
         ))}
@@ -72,15 +72,15 @@ function ProjectItem ({ project }) {
   const { imgUrl, appUrl, githubUrl, appName, appTech } = project;
 
   return (
-    <figure className='app-container'>
-      <img className='app-img' src={imgUrl} alt={appName}/>
+    <figure className='app-container col-sm-12 col-md-6 col-lg-6 d-flex align-items-center'>
+      <img className='app-img projectImg' src={imgUrl} alt={appName}/>
       <figcaption className='app-info'>
         <div className='app-name'>
           <a href={appUrl} target='_blank' rel='noopener noreferrer'>{appName}</a>
         </div>
         <div className='app-github'>
           <a href={githubUrl} target="_blank" rel='noopener noreferrer'>
-            <img src={githubIcon} alt='Github' />
+            <img className='icon-small' src={githubIcon} alt='Github' />
           </a>
         </div>
         <div className='app-tech'>{appTech}</div>

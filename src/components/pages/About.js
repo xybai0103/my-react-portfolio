@@ -4,7 +4,7 @@ import avatar from '../../assets/images/headshot.jpeg';
 export default function About() {
   return (
     <div>
-      <h1 className='fs-5'>About me</h1>
+      <h1 className='fs-4'>About me</h1>
       <img className="avatar mt-1 mb-3" src={avatar} alt="Xueyin's Avatar"/>
       <p>
         I spent my past over ten years in the landscape architecture and Urban Planning area. Serving as 
