@@ -96,27 +96,3 @@ function ProjectItem ({ project }) {
     </figure>
   );
 }
-
-// export default function Project() {
-//   return (
-//     <div>
-//       <h1>Portfolio</h1>
-//       <div className='projects'>
-//         <figure className='app-container'>
-//           <img className='app-img' src='../../../public/images/voteForMe.png' alt='voteForMe'/>
-//           <figcaption className='app-info'>
-//             <div className='app-name'>
-//               <a href='https://election-pro.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Vote for Me!</a>
-//             </div>
-//             <div className='app-github'>
-//               <a href='https://github.com/danieltran2016/Elections' target="_blank" rel='noopener noreferrer'>
-//                 <img src='../../../public/images/githubIcon.png' alt='Github' />
-//               </a>
-//             </div>
-//             <div className='app-tech'>Full-Stack Application Using ExpressJs and MySQL</div>
-//           </figcaption>
-//        </figure>
-//       </div>
-//     </div>
-//   );
-// }
