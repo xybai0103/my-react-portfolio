@@ -8,10 +8,18 @@ import textEditor from '../../assets/images/textEditor.png';
 import noteTaker from '../../assets/images/noteTaker.jpg';
 import weatherDashboard from '../../assets/images/weather.jpg';
 import workdayScheduler from '../../assets/images/scheduler.jpg';
+import nomNom from '../../assets/images/nomNom.jpg';
 
 
 export default function Project() {
   const projects = [
+    {
+      imgUrl: nomNom,
+      appUrl: 'https://nom-nom-2023-d9595dea6646.herokuapp.com/',
+      githubUrl: 'https://github.com/danieltran2016/Nom_Nom',
+      appName: 'Nom Nom?',
+      appTech: 'Full-stack Application Using React and GraphQL',
+    },
     {
       imgUrl: voteForMe,
       appUrl: 'https://election-pro.herokuapp.com/',
