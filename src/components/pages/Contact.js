@@ -50,8 +50,8 @@ export default function Contact() {
 
   return (
     <div className='col-sm-12 col-md-6 col-lg-4'>
-      <h1 className='fs-4'>Contact</h1>
-      <form className='form-group'>
+      <h1 className='fs-2'>Contact</h1>
+      <form className='form-group fs-4'>
         <label>Name:</label>
         <input
             onChange={handleInputChange}
@@ -90,7 +90,7 @@ export default function Contact() {
         )}
         <button
             onClick={handleFormSubmit}
-            className='btn bg-black text-white mt-2'
+            className='btn bg-black text-white mt-2 fs-4'
             type='submit'
         >
             Submit

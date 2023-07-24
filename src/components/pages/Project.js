@@ -83,7 +83,7 @@ function ProjectItem ({ project }) {
     <figure className='app-container col-sm-12 col-md-6 col-lg-6'>
       <img className='app-img' src={imgUrl} alt={appName}/>
       <figcaption className='app-info'>
-        <div className='app-name fs-4'>
+        <div className='app-name fs-2'>
           <a href={appUrl} target='_blank' rel='noopener noreferrer'>{appName}</a>
         </div>
         <div className='app-github'>
@@ -91,7 +91,7 @@ function ProjectItem ({ project }) {
             <img className='icon-small' src={githubIcon} alt='Github' />
           </a>
         </div>
-        <div className='app-tech'>{appTech}</div>
+        <div className='app-tech fs-4'>{appTech}</div>
       </figcaption>
     </figure>
   );
