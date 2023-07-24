@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.3e8be8c3.css",
-    "main.js": "/my-react-portfolio/static/js/main.eaf8c747.js",
+    "main.js": "/my-react-portfolio/static/js/main.73e8f96a.js",
     "static/media/voteForMe.png": "/my-react-portfolio/static/media/voteForMe.0f24897c0a228915a44c.png",
     "static/media/babyName.jpg": "/my-react-portfolio/static/media/babyName.02b23af1bae99e0b141f.jpg",
     "static/media/weather.jpg": "/my-react-portfolio/static/media/weather.8cf44e963b583aa547fd.jpg",
@@ -12,10 +12,10 @@
     "static/media/Xueyin Bai_Job Title_Resume.pdf": "/my-react-portfolio/static/media/Xueyin Bai_Job Title_Resume.c0ca6abd0dee20e09e85.pdf",
     "index.html": "/my-react-portfolio/index.html",
     "main.3e8be8c3.css.map": "/my-react-portfolio/static/css/main.3e8be8c3.css.map",
-    "main.eaf8c747.js.map": "/my-react-portfolio/static/js/main.eaf8c747.js.map"
+    "main.73e8f96a.js.map": "/my-react-portfolio/static/js/main.73e8f96a.js.map"
   },
   "entrypoints": [
     "static/css/main.3e8be8c3.css",
-    "static/js/main.eaf8c747.js"
+    "static/js/main.73e8f96a.js"
   ]
 }

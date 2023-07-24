@@ -4,9 +4,9 @@ import avatar from '../../assets/images/headshot.jpeg';
 export default function About() {
   return (
     <div>
-      <h1 className='fs-2'>Hello, Stranger!</h1>
+      <h1 className='fs-3'>Hello, Stranger!</h1>
       <img className="avatar mt-1 mb-3" src={avatar} alt="Xueyin's Avatar"/>
-      <div className='fs-3'>
+      <div className='fs-4'>
         <p>
           My career journey has been an exciting exploration of various disciplines, starting from landscape design and urban research to the current coding. For me, this path feels like a natural and logical progression, driven by a deep alignment with my skills, passions, and long-term aspirations.
         </p>
