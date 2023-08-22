@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from '../../assets/Xueyin Bai_Job Title_Resume.pdf';
+import myResume from '../../assets/Xueyin Bai_Resume.pdf';
 
 export default function Resume() {
   return (
