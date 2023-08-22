@@ -32,12 +32,24 @@ module.exports = {
         type: 'asset/resource',
       },
       {
+        test: /\.(pdf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'pdfs/', // Set the output path for PDF files
+            },
+          },
+        ],
+      },
+      {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
+            presets: ['@babel/preset-env', '@babel/preset-react', '@babel/plugin-proposal-private-property-in-object'],
           },
         },
       },
